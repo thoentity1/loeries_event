@@ -16,58 +16,27 @@ body {
     color:white;
 }
 
+/* Header */
+header {
+    text-align:center;
+    padding:20px;
+    background:#111;
+    border-bottom:2px solid #E0E012;
+}
+
+header h1 {
+    color:#E0E012;
+    margin:0;
+}
+
+/* Logo */
 .logo {
     width: 120px;
     display: block;
     margin: 10px auto;
 }
 
-header {
-    text-align:center;
-    padding:20px;
-    background:#111;
-    border-bottom:2px solid #E0E012;
-}
-
-header h1 {
-    color:#E0E012;
-    margin:0;
-}
-</style>
-
-</head>
-
-<body>
-
-<header>
-    <!-- Logo goes HERE (inside body, inside header) -->
-    <img class="logo" src="https://www.loeries.com/wp-content/uploads/loeries_logo.png" alt="Loeries Logo">
-
-    <h1>Loeries Week Guide</h1>
-    <p>Your Guide to Events, Venues & Experiences</p>
-</header>
-
-</body>
-</html>
-body {
-    margin:0;
-    font-family:Poppins, sans-serif;
-    background:#0f0f0f;
-    color:white;
-}
-
-header {
-    text-align:center;
-    padding:20px;
-    background:#111;
-    border-bottom:2px solid #E0E012;
-}
-
-header h1 {
-    color:#E0E012;
-    margin:0;
-}
-
+/* Navigation */
 nav {
     text-align:center;
     padding:10px;
@@ -84,6 +53,7 @@ nav a:hover {
     color:#E0E012;
 }
 
+/* Sections */
 .section {
     padding:40px 20px;
     text-align:center;
@@ -93,6 +63,7 @@ nav a:hover {
     color:#E0E012;
 }
 
+/* Cards */
 .card {
     background:#1a1a1a;
     margin:20px auto;
@@ -101,6 +72,7 @@ nav a:hover {
     max-width:500px;
 }
 
+/* Footer */
 footer {
     text-align:center;
     padding:20px;
@@ -108,11 +80,13 @@ footer {
     border-top:2px solid #E0E012;
 }
 </style>
+
 </head>
 
 <body>
 
 <header>
+    <img class="logo" src="https://www.loeries.com/wp-content/uploads/loeries_logo.png" alt="Loeries Logo">
     <h1>Loeries Week 2026</h1>
     <p>Your Guide to Events, Venues & Experiences</p>
 </header>
@@ -174,11 +148,11 @@ footer {
 
 <section class="section" id="map">
     <h2>Event Map</h2>
-    <p>View the full venue map below:</p>
 
-    <!-- Replace with real map -->
-    <iframe src="https://maps.google.com/maps?q=cape%20town&t=&z=13&ie=UTF8&iwloc=&output=embed"
-    width="90%" height="300" style="border:0;"></iframe>
+    <iframe 
+        src="https://maps.google.com/maps?q=cape%20town&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        width="90%" height="300" style="border:0;">
+    </iframe>
 </section>
 
 <section class="section" id="info">
